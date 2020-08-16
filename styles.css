@@ -255,3 +255,188 @@ div.bar .content .actions button {
 
   margin: 0 5px 5px 0;
 }
+
+.widgets {
+  width: 290px;
+  margin-top: 10px;
+}
+
+.widgets .widget {
+  background: #fff;
+  padding: 15px;
+}
+.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+}
+.title strong {
+  font-size: 18px;
+  color: #1f2226;
+}
+.title a {
+  color: #3bb9e3;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  padding-left: 14px;
+}
+.title a::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  margin-left: 5px;
+  background: #222;
+  margin-right: 5px;
+  position: absolute;
+  left: 4px;
+  top: 6px;
+}
+
+.widgets .follow ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.widgets .follow ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccd6dd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.widgets .follow ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+.widgets .follow ul li .profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.widgets .follow ul li .profile .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.widgets .follow ul li .profile .info strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+.profile .info strong span {
+  font-weight: normal;
+  color: #9a9a9a;
+}
+
+.profile .info button {
+  margin-top: 4px;
+  height: 27px;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3bb9e3;
+  border: 1px solid #3bb9e3;
+  border-radius: 16px;
+  background-color: white;
+}
+
+.follow ul li > a {
+  color: #ccd6dd;
+  text-decoration: none;
+  font-size: 12px;
+  font-size: 14px;
+}
+
+.timeline {
+  flex: 1;
+  background: #fff;
+  margin: 10px 20px 0;
+}
+
+.timeline nav {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+.timeline nav a {
+  text-decoration: none;
+  color: #3bb9e3;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.timeline nav a.active {
+  color: #1f2226;
+}
+
+.timeline nav a:first-child {
+  margin-left: 0;
+}
+ul.tweets {
+  list-style: none;
+}
+
+ul.tweets li {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+  display: flex;
+}
+ul.tweets li > img {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+ul.tweets li .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul.tweets li .info p {
+  font-size: 14;
+  color: #1f2226;
+  margin-top: 5px;
+}
+ul.tweets li .info strong {
+  font-size: 14px;
+  color: #1f2226;
+}
+
+ul.tweets li .info strong span {
+  font-weight: normal;
+  font-size: 13px;
+  color: #667580;
+}
+
+.actions {
+  display: flex;
+}
+.actions a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #667580;
+  font-weight: bold;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.actions a:first-child {
+  margin-left: 0;
+}
+
+.actions a img {
+  margin-right: 5px;
+}
